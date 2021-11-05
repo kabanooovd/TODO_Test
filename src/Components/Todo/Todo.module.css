@@ -1,0 +1,111 @@
+.todoListContainer {
+    position: relative;
+}
+
+.removeTodolistButtonStyles {
+    position: absolute;
+    right: 6px;
+    top: -13px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: snow;
+    cursor: pointer;
+}
+.removeTodolistButtonStyles:hover {
+    background-color: #282828;
+    color: orange;
+}
+.disabledRemoveTodolistButtonStyles {
+    position: absolute;
+    right: 6px;
+    top: -13px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: snow;
+    cursor: pointer;
+    pointer-events: none;
+    background-color: #686767;
+}
+
+.todoListWrapper {
+    background-color: #f1f1f1;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid grey;
+    width: 330px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.completedTodoListWrapper {
+    background-color: #e5f1de;
+    margin: 20px;
+    padding: 10px;
+    /*border: 2px solid #80ee80;*/
+    border: 2px solid #73af73;
+    width: 330px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.todoListWrapper:hover {
+    border: 2px solid #496ff5;
+}
+
+.tasksContentWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todoHeader {
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+
+.editTodoTitlePosition {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.dateStyles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formPosition {
+    text-align: center;
+}
+
+.statusButtonStyles {
+    width: 100px;
+}
+
+.checkIconStyles {
+    position: absolute;
+    top: 10px;
+    left: 274px;
+    color: snow;
+    background-color: #03a503;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

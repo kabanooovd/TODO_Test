@@ -1,0 +1,30 @@
+.taskWrapper {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleWrapper {
+    display: flex;
+}
+
+.checkboxRelativePosition {
+    display: flex;
+    align-items: center;
+
+}
+
+.taskRemoteWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.confirmContainer {
+    position: relative;
+}
+
+.titleStyles {
+    word-break:break-word;
+}

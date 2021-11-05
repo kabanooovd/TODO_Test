@@ -1,0 +1,8 @@
+.notificatorContainer {
+    border: 1px solid #908f8f;
+    width: 350px;
+    position: absolute;
+    top: -40px;
+    left: 222px;
+    z-index: 1;
+}

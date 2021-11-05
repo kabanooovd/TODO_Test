@@ -1,0 +1,39 @@
+.creationTodoContainer {
+    position: relative;
+}
+
+.createTodoButtonWrapper {
+    background-color: #0b39e2;
+    color: snow;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.disabledCreateTodoButtonWrapper {
+    background-color: #0b39e2;
+    color: snow;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-size: 16px;
+    pointer-events: none;
+    opacity: 0.4;
+}
+.createTodoButtonWrapper:hover {
+    opacity: 0.8;
+}
+
+
+.createTodoInputsWrapper {
+    border: 1px solid #d9d8d8;
+    background-color: snow;
+    padding: 20px;
+    width: 250px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -2px;
+    left: -48px;
+    z-index: 100;
+}

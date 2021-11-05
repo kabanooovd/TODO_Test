@@ -1,0 +1,14 @@
+.modalWindowWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.creationRemoteWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.notificatorParent {
+    position: relative;
+}

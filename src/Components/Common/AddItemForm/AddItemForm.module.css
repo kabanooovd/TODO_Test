@@ -1,0 +1,40 @@
+.error {
+    width: 260px;
+    color: snow;
+    outline: none;
+    border: 2px solid red;
+    background-color: transparent;
+}
+
+.notError {
+    width: 260px;
+    color: #797979;
+    outline: none;
+    border: 2px solid #797979;
+    background-color: transparent;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.addBtnStyles {
+    cursor: pointer;
+    outline: none;
+    color: grey;
+    background-color: transparent;
+    border: 2px solid #686767;
+}
+.disabledAddBtnMode {
+    outline: none;
+    color: grey;
+    background-color: transparent;
+    border: 2px solid #686767;
+    pointer-events: none;
+    opacity: 0.4;
+}
+.addBtnStyles:hover {
+    color: #0b39e2;
+    background-color: #797979;
+    border: 2px solid transparent;
+}

@@ -1,0 +1,10 @@
+.todosContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.initAppWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
